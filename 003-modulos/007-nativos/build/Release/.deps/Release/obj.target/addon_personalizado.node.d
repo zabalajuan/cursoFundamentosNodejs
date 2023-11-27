@@ -1,0 +1,1 @@
+cmd_Release/obj.target/addon_personalizado.node := g++ -o Release/obj.target/addon_personalizado.node -shared -pthread -rdynamic -m64  -Wl,-soname=addon_personalizado.node -Wl,--start-group Release/obj.target/addon_personalizado/007-hola.o -Wl,--end-group 

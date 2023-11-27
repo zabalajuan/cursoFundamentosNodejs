@@ -1,0 +1,1 @@
+cmd_Release/addon_personalizado.node := ln -f "Release/obj.target/addon_personalizado.node" "Release/addon_personalizado.node" 2>/dev/null || (rm -rf "Release/addon_personalizado.node" && cp -af "Release/obj.target/addon_personalizado.node" "Release/addon_personalizado.node")
